@@ -28,6 +28,7 @@ public class FeignAdminController {
 
     @GetMapping("/getBrandList")
     public CommonResult getBrandList(){
-        return adminService.getList();
+        CommonResult res = adminService.getList();
+        return res;
     }
 }

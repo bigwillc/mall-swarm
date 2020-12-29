@@ -51,6 +51,7 @@ spring:
 secure:
   ignore:
     urls: #配置白名单路径
+      - "/swagger-ui.html"
       - "/doc.html"
       - "/swagger-resources/**"
       - "/swagger/**"
